@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Email Me</title>
+    <link rel="stylesheet" href="static/css/styles.css">
+    <link rel="icon" href="static/images/my-favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Montserrat&family=Outfit&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+<body class="contact-page">
+<p style="padding-top: 5%; padding-left: 5%; padding-right: 5%; text-align: center; font-size: 1.5rem; color:#66BFBF;">Want to get in touch? Send me an email and I'll get back to you.</p>
+<hr class="hr-contact-page">
+<div class="contact-container">
+    <form action="{{ url_for('contact_me')}}" method="POST" novalidate>
+<!--        name section-->
+        <div class="row">
+            <div class="name-section">
+                <label class="name input-title">Name</label>
+            </div>
+
+            <div class="entries">
+                <input class="entries" data-validation-required-message="Please enter your name."
+                       id="name" name="name" placeholder="Name" required type="text">
+            </div>
+        </div>
+<!--        email-->
+        <div class="row">
+            <div class="email-section">
+                <label class="email input-title">Email Address</label>
+            </div>
+
+            <div class="entries">
+                <input class="entries" data-validation-required-message="Please enter your email."
+                       id="email" name="email" placeholder="Email" required type="text">
+            </div>
+        </div>
+<!--        phone number section-->
+        <div class="row">
+            <div class="phone-section">
+                <label class="phone-number input-title ">Phone Number</label>
+            </div>
+
+            <div class="entries">
+                <input class="entries" id="phone" name="phone" placeholder="Optional" required type="tel">
+            </div>
+        </div>
+<!--        message section-->
+        <div class="row">
+            <div class="message-section">
+                <label class="message input-title">Message</label>
+            </div>
+
+            <div class="message-entry entries">
+                <textarea class="entries" data-validation-required-message="Please type your message."
+                          id="message" name="message" placeholder="Write your message here..."
+                          required type="text"></textarea>
+            </div>
+        </div>
+
+<!--        submit button section-->
+        <div class="row">
+            <input class="submit-button" type="submit" value="Send">
+        </div>
+
+    </form>
+</div>
+</body>
+</html>

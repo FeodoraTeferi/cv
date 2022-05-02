@@ -1,0 +1,235 @@
+body {
+   margin: 0;
+   text-align: center;
+   font-family: 'Comic Neue', cursive;
+   color: #194350;
+}
+
+.mountains {
+    width: 60%;
+    image-align: center
+}
+
+h1{
+ font-size: 3rem;
+ font-family: 'Comic Neue', cursive;
+ color: #66BFBF;
+}
+
+h2{
+ font-size: 1.5rem;
+ font-family: 'Comic Neue', cursive;
+ color: #66BFBF;
+ font-weight: normal;
+ line-height: 2;
+}
+
+h6{
+ font-size: 2rem;
+ font-family: 'Comic Neue';
+ color: #66BFBF;
+ line-height: 1;
+}
+
+
+h3{
+ font-size: 1.5rem;
+ font-family: 'Comic Neue', cursive;
+ color: #66BFBF;
+}
+
+
+.redirect-message {
+    line-height: 1;
+}
+
+.redirect-page {
+    background-color: #EAF6F6;
+}
+
+
+.loading-bar {
+    position: relative;
+    height: 50px;
+    width: 15%;
+}
+
+.contact-page {
+    background-color: #EAF6F6;
+}
+
+.submit-button {
+    width: 100px;
+    border-radius: 10px;
+    background-color: #194350;
+    color: #EAF6F6;
+    font-size: 1.1rem;
+    font-family: 'Comic Neue', cursive;
+}
+
+.submit-button:hover {
+    background-color: #18505C;
+}
+
+.name {
+    margin-right: 40.5%;
+}
+
+.email {
+    margin-right: 36.5%;
+}
+
+.phone-number {
+    margin-right: 36%;
+}
+
+.message {
+    margin-right: 39%;
+}
+
+
+textarea {
+    border: 1.7px solid;
+    border-color:#66BFBF;
+    border-radius: 4px;
+    outline: none;
+    width: 40%;
+    height: 150px;
+    padding: 12px 20px;
+    margin-top: 10px;
+}
+
+input {
+    border: 1.7px solid;
+    border-color:#66BFBF;
+    border-radius: 4px;
+    outline: none;
+    width: 40%;
+    padding: 10px 20px;
+    margin: 10px;
+    margin-bottom: 5px;
+}
+
+.top-container {
+    background-color: #EAF6F6;
+    padding-top: 100px;
+    position: relative;
+}
+
+.bottom-cloud {
+    width: 10%;
+}
+
+.top-cloud {
+    position: absolute;
+    width: 10%;
+    right: 300px;
+    top: 50px;
+}
+
+span {
+    background-color: #EAF6F6;
+}
+
+.middle-container {
+    background-color: #EAF6F6;
+}
+
+.hr-contact-page {
+    border: dotted #194350 6px;
+    border-bottom: 0px;
+    width: 1.5%;
+    margin: 25px auto
+}
+
+hr {
+    border: dotted #194350 6px;
+    border-bottom: 0px;
+    width: 4%;
+    margin: 50px auto;
+}
+
+.skill-row-left {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill-row-right {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: right;
+    line-height: 2;
+}
+
+.python-logo {
+    width: 20%;
+    margin-right: 5%;
+    float: left;
+}
+
+.html-css-logo {
+    width: 30%;
+    margin-left: 5%;
+    float: right;
+}
+
+.flask-logo {
+    width: 20%;
+    margin-right: 5%;
+    float: left;
+}
+
+.oracle-logo {
+    width: 18%;
+    margin-left: 5%;
+    float: right;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    text-align: center;
+    height: 100px;
+    margin-top: 50px;
+    padding-top: 30px:
+    padding-bottom: 5px;
+}
+
+.footer-link {
+    padding-top: 5px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+
+.btn {
+  background: #66BFBF;
+  background-image: -webkit-linear-gradient(top, #66BFBF, #4eabab);
+  background-image: -moz-linear-gradient(top, #66BFBF, #4eabab);
+  background-image: -ms-linear-gradient(top, #66BFBF, #4eabab);
+  background-image: -o-linear-gradient(top, #66BFBF, #4eabab);
+  background-image: linear-gradient(to bottom, #66BFBF, #4eabab);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 17px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #83cfcf;
+  background-image: -webkit-linear-gradient(top, #83cfcf, #83cfcf);
+  background-image: -moz-linear-gradient(top, #83cfcf, #83cfcf);
+  background-image: -ms-linear-gradient(top, #83cfcf, #83cfcf);
+  background-image: -o-linear-gradient(top, #83cfcf, #83cfcf);
+  background-image: linear-gradient(to bottom, #83cfcf, #83cfcf);
+  text-decoration: none;
+}

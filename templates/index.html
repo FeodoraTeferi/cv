@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Feodora Teferi</title>
+        <link rel="stylesheet" href="static/css/styles.css">
+        <link rel="icon" href="static/images/my-favicon.ico" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Montserrat&family=Outfit&family=Sacramento&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <div class="top-container">
+            <img class="top-cloud" src="static/images/cloud.png" alt="cloud-img">
+            <h1>I'm Feodora. </h1>
+            <h2><p>a <span>pro</span>grammer</p></h2>
+            <img class="bottom-cloud" src="static/images/cloud.png" alt="cloud-img">
+            <img class="mountains" src="static/images/mountain-cartoon.png" alt="mountains-img">
+        </div>
+        <div class="middle-container">
+          <div class="profile">
+            <img src="" alt="">
+            <h2>Hello.</h2>
+            <p>I'm 16 years old.</p>
+            <p style="padding-left: 5%; padding-right: 5%;">I created this website to show my skills, and to help you get to know me.</p>
+            <p style="padding-left: 5%; padding-right: 5%;">* yes, this website's design is inspired by Sean Halpin's work *</p>
+          </div>
+          <hr>
+          <div class="skills">
+<!--              using h6 so i can customize without changing h1-->
+            <h6>My Skills</h6>
+
+            <div class="skill-row-left">
+              <img class="python-logo" src="static/images/python-logo.png" alt="">
+              <h3>Python</h3>
+              <p>Very broad understanding of Python and other related skills e.g. Selenium, BeautifulSoup, Flask.</p>
+            </div>
+
+            <div class="skill-row-right">
+              <img class="html-css-logo" src="static/images/html:css-logo.png" alt="">
+              <h3>HTML/CSS</h3>
+              <p>Conversant in HTML and CSS. I know enough to make this website as well as Bootstrap for more complex designs.</p>
+            </div>
+
+            <div class="skill-row-left">
+              <img class="flask-logo" src="static/images/flask-logo.png" alt="">
+              <h3>Flask/Jinja</h3>
+              <p>I am conversant in Flask and Jinja and know how to apply them to my web applications.</p>
+            </div>
+
+            <div class="skill-row-right">
+              <img class="oracle-logo" src="static/images/oracle-logo.png" alt="">
+              <h3>Oracle SQL</h3>
+              <p style="margin-bottom: 20px">I can understand and apply basic SQL commands.</p>
+          </div>
+
+          <hr>
+
+          <div class="contact-me">
+<!--            <h2>Get In Touch</h2>-->
+            <h3 style="margin-top: 8%; margin-bottom: 20px; font-size: 2rem">Get In Touch</h3>
+            <p style="margin-bottom: 5%; font-size: 1.01rem">Feel free to contact me via LinkedIn or just email me.</p>
+            <a class="btn"  href="{{ url_for('contact_me')}}">Email Me</a>
+          </div>
+        </div>
+
+        <div class="bottom-container" style="margin-top: 10%;">
+          <a class="footer-link" style="top: 15px; position: relative; color: #EAF6F6;" href="https://www.linkedin.com/in/feodora-teferi-a3490622b/">LinkedIn</a>
+          <a class="footer-link" style="top: 15px; position: relative; color: #EAF6F6;" href="https://github.com/FeodoraTeferi">GitHub</a>
+          <p style="top: 10px; position: relative; color: #EAF6F6;">© 2022 Feodora Teferi.</p>
+        </div>
+    </body>
+</html>
